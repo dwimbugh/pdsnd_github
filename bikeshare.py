@@ -22,7 +22,7 @@ def get_filters():
                 print('\n That\'s not a valid response!')
                 continue
             else:
-                print('"' + city + '"' + ' it is!')
+                print('"' + city + '"' + ' it will be!')
                 break
 
     # get user input for month (all, january, february, ... , june)
@@ -32,7 +32,7 @@ def get_filters():
                 print('\n That\'s not a valid response!')
                 continue
             else:
-                print('"' + month + '"' + ' it is!')
+                print('"' + month + '"' + ' it will be!')
                 break
             
     # get user input for day of week (all, monday, tuesday, ... sunday)
@@ -42,7 +42,7 @@ def get_filters():
                 print('\n That\'s not a valid response!')
                 continue
             else:
-                print('"' + day + '"' + ' it is!')
+                print('"' + day + '"' + ' it will be!')
                 break
 
     print('-'*40)
