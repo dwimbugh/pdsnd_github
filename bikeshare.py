@@ -213,7 +213,7 @@ def view_data(df):
                 break
 
     else:
-        print('You typed something other than "yes" - now existing the raw data view!\n')
+        print('You typed something other than "yes" - now existing the raw data view!  Thanks for your time.')
 
 
 def main():
@@ -229,7 +229,7 @@ def main():
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
-            print('\nYou typed something other than "yes" - now existing the program!\n')
+            print('\nYou typed something other than "yes" - now existing the program! Thanks for your time.\n')
             break
 
 
