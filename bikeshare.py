@@ -180,16 +180,16 @@ def user_stats(df, city):
         dob = df['Birth Year'].dropna().astype({'Birth Year': 'int32'}) 
     
         oldest_dob = dob.min()
-        print(oldest_dob, ' is the earliest year of birth.\n')
+        print(oldest_dob, ' is the earliest birth year.\n')
         
         youngest_dob = dob.max()
-        print(youngest_dob, ' is the most recent year of birth.\n')
+        print(youngest_dob, ' is the most recent birth year.\n')
         
         common_dob = dob.mode()[0]
-        print(common_dob, ' is the most common year of birth.')
+        print(common_dob, ' is the most common birth year.')
         
     else: 
-        print('There is no gender or date of birth data for the selected data set!')
+        print('IMPORTANT: There is no gender or date of birth data for the selected data set!')
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
