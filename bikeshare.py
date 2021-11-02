@@ -1,6 +1,7 @@
 import time
 import pandas as pd
 
+# Dict for the three city datasets
 CITY_DATA = { 'Chicago': 'chicago.csv',
               'New York City': 'new_york_city.csv',
               'Washington': 'washington.csv' }
